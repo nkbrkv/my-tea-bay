@@ -1,0 +1,26 @@
+@import 'variables';
+@import 'fonts';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+  }
+
+  a {
+    text-decoration: none;
+    // color: var(--green);
+    cursor: pointer;
+  }
+
+  .default {
+    color: var(--green);
+    font-family: 'Roboto Condensed Regular';
+    line-height: 107.02%;
+    letter-spacing: 0.295em;
+    line-height: 142.52%;
+  }
+
+  .fz14 { 
+    font-size: 20px;
+  }

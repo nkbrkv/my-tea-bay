@@ -1,0 +1,48 @@
+:root {
+  --grey: #383838;
+  --green: #045649;
+  --white: #fff;
+}
+
+@font-face {
+  font-family: 'Roboto Condensed Regular';
+  src: url("../fonts/RobotoCondensed-Regular.ttf");
+  src: url("../fonts/RobotoCondensed-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Roboto Condensed Bold';
+  src: url("../fonts/RobotoCondensed-Bold.ttf");
+  src: url("../fonts/RobotoCondensed-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Roboto Condensed Light';
+  src: url("../fonts/RobotoCondensed-Light.ttf");
+  src: url("../fonts/RobotoCondensed-Light.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.default {
+  color: var(--green);
+  font-family: 'Roboto Condensed Regular';
+  line-height: 107.02%;
+  letter-spacing: 0.295em;
+  line-height: 142.52%;
+}
+
+.fz14 {
+  font-size: 20px;
+}
+/*# sourceMappingURL=main.css.map */
